@@ -1,0 +1,317 @@
+@import url(./reset.css);
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #0b111a;
+    padding: 20px;
+}
+
+header .introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-left {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #3A68B8;
+}
+
+.links {
+    display: none;
+    gap: 20px;
+}
+
+.links a {
+    color: white;
+}
+
+
+.button a {
+    background-color: #3A68B8;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+
+
+/* buradan section bashlayir */
+
+.section-first {
+    color: #fff;
+}
+
+
+.section-first .first-left h6 {
+    color: #3A68B8;
+    padding-top: 30px;
+}
+
+.section-first .first-left h1 {
+    font-size: 50px;
+}
+
+.section-first .first-left p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+
+.section-first .first-left-buttons a {
+    color: #fff;
+    padding: 10px;
+    background-color: #3A68B8;
+}
+
+.section-first .first-left-buttons {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.section-first .first-right img {
+    width: 350px;
+}
+
+.partnyorlar :not(:nth-child(1)) {
+    display: none;
+
+}
+
+.partnyorlar {
+    padding-top: 10px;
+    text-align: center;
+    /* shekli merkeze chekmek */
+}
+
+.apply-ai {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.apply-ai .apply-right {
+    padding-top: 20px;
+}
+
+
+.apply-ai .apply-right h1 {
+    font-size: 45px;
+}
+
+
+.apply-ai .apply-right p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.apply-ai .apply-right .apply-button a {
+    background-color: #3A68B8;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.apply-ai .apply-right .apply-button {
+    padding-top: 30px;
+}
+
+/* kartlar buradan bashlayiirrrrr */
+
+.cards {
+    color: #fff;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card {
+    box-shadow: 6px 8px 10px rgb(248, 248, 249);
+    padding: 15px;
+    background-color: #0e1724;
+    margin-top: 30px;
+}
+
+.cards .card h2 {
+    font-size: 30px;
+}
+
+.last {
+    color: #fff;
+    padding-top: 50px;
+}
+
+.last .last-left h2 {
+    font-size: 40px;
+}
+
+.last .last-left p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* FOOTER HISSESI BURADAN BASHLAYIR */
+.footer-umumi{
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
+.footer-umumi a{
+    color: #fff;
+}
+
+.footer-umumi .information a , .footer-umumi .useful-links a{
+    display: block;
+    padding-top: 10px;
+}
+
+.footer-umumi .information ,.footer-umumi .useful-links,.footer-umumi .about-the-store {
+    padding-top: 30px;
+}
+
+.footer-umumi .footer-first-side h3{
+    color: #3A68B8;
+    font-size: 20px;
+}
+
+.footer-umumi .footer-first-side p{
+    font-size: 17px;
+    width: 300px;
+    padding: 10px 0; 
+}
+
+.footer-umumi .about-the-store p{
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.footer-umumi .about-the-store img{
+    padding-top: 10px;
+   
+}
+
+
+
+
+
+
+/* MEDIA CODLARIIIIIIIIIII */
+@media(min-width:768px) {
+    .introduction .links {
+        display: flex;
+    }
+
+    .introduction .fa-bars {
+        display: none;
+    }
+
+    .section-first {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+
+    .section-first .first-left h1 {
+        font-size: 60px;
+    }
+
+    .section-first .first-left p {
+        font-size: 20px;
+    }
+
+    .section-first .first-right img {
+        width: 400px;
+        height: 500px;
+    }
+
+    .partnyorlar img:nth-child(2),
+    .partnyorlar img:nth-child(3) {
+        display: flex;
+    }
+
+    .partnyorlar {
+        display: flex;
+        gap: 50px;
+    }
+
+    .apply-ai {
+        display: flex;
+        gap: 50px;
+    }
+
+    .apply-ai .apply-right p {
+        font-size: 20px;
+    }
+
+    .cards {
+        gap: 15px;
+    }
+
+    .last {
+        display: flex;
+    }
+}
+
+
+
+
+
+@media(min-width:1280px) {
+    .section-first .first-left p {
+        font-size: 30px;
+    }
+
+    .section-first .first-left h1 {
+        font-size: 80px;
+    }
+
+    .section-first .first-right img {
+        width: 500px;
+    }
+
+    .partnyorlar {
+        gap: 220px;
+        padding-left: 50px;
+    }
+
+    .apply-ai {
+        display: flex;
+        gap: 90px;
+        padding-top: 40px;
+    }
+
+    .apply-ai .apply-left img {
+        width: 500px;
+    }
+
+    .apply-ai .apply-right h1 {
+        font-size: 70px;
+    }
+
+    .apply-ai .apply-right p {
+        font-size: 30px;
+    }
+
+    .last .last-left h2 {
+        font-size: 70px;
+    }
+
+    .last .last-left p {
+        font-size: 25px;
+    }
+
+    .last .last-right img {
+        width: 500px;
+    }
+
+}
