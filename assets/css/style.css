@@ -1,4 +1,5 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
     text-decoration: none;
@@ -7,6 +8,8 @@
 body {
     background-color: #0b111a;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 header .introduction {
@@ -95,7 +98,7 @@ header .introduction {
 }
 
 .apply-ai {
-    padding-top: 20px;
+    /* padding-top:20px; silmrem elebele qalsn soradan baxanda menasiz geldi*/
     color: #fff;
 }
 
@@ -158,6 +161,7 @@ header .introduction {
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
 
 /* FOOTER HISSESI BURADAN BASHLAYIR */
 .footer-umumi{
@@ -261,10 +265,6 @@ header .introduction {
         display: flex;
     }
 }
-
-
-
-
 
 @media(min-width:1280px) {
     .section-first .first-left p {
