@@ -52,6 +52,7 @@ header .introduction {
 
 .section-first {
     color: #fff;
+    margin-top: 100px;
 }
 
 
@@ -98,8 +99,8 @@ header .introduction {
 }
 
 .apply-ai {
-    /* padding-top:20px; silmrem elebele qalsn soradan baxanda menasiz geldi*/
     color: #fff;
+    margin-top: 200px;
 }
 
 .apply-ai .apply-right {
@@ -132,7 +133,7 @@ header .introduction {
 
 .cards {
     color: #fff;
-    padding-top: 10px;
+    padding-top: 150px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
@@ -150,7 +151,7 @@ header .introduction {
 
 .last {
     color: #fff;
-    padding-top: 50px;
+    padding-top: 200px;
 }
 
 .last .last-left h2 {
@@ -168,6 +169,7 @@ header .introduction {
     color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    padding-top: 100px;
 }
 
 .footer-umumi a{
